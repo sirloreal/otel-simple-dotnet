@@ -39,7 +39,7 @@ string HandleRollDice([FromServices]ILogger<Program> logger, string? player)
     }
     else
     {
-        logger.LogInformation("The player: {player} is rolling the beautiful dice: {result}", player, result);
+        logger.LogInformation("The player: {player} is rolling the beautiful and splendid dice: {result}", player, result);
     }
 
     return result.ToString(CultureInfo.InvariantCulture);
